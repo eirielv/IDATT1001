@@ -3,12 +3,12 @@ public class oving2_1 {
 
     public static void main(String[] args){
         //skriv inn årstall
-        arstall(2020);
+        arstall(2019);
     }
     public static void arstall(int ar){
         //Finner ut om det er hundreår
         if(ar % 100 == 0){
-            //Hvis hundreår % 400 = 0, så hundreår
+            //Hvis hundreår % 400 = 0, så hundreår=skuddår
             if(ar % 400 ==0){
                 System.out.println("Skuddår");
             }
@@ -16,7 +16,7 @@ public class oving2_1 {
                 System.out.println("IKKE SKUDDÅR!");
             }
         }
-        //Hvis ikke hundreår, år modulo 4
+        //Hvis ikke hundreår -> år modulo 4
         else{
             if(ar % 4 ==0){
                 System.out.println("Skuddår");
@@ -31,4 +31,3 @@ public class oving2_1 {
     } 
 
 }
-
