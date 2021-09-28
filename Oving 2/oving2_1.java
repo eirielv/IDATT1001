@@ -3,7 +3,7 @@ public class oving2_1 {
 
     public static void main(String[] args){
         //skriv inn årstall
-        arstall(2019);
+        arstall(2020);
     }
     public static void arstall(int ar){
         //Finner ut om det er hundreår
